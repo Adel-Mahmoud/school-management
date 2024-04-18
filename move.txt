@@ -1,0 +1,7 @@
+var d= false;
+function move(){
+  if(d){
+    window.login.style.left=window.event.clientX;
+    window.login.style.top=window.event.clientY;
+  }
+}
